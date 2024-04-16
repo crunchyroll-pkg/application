@@ -1,0 +1,29 @@
+{
+  "name": "Crunchyroll",
+  "version": "1.0.4",
+  "pkgrel": "4",
+  "description": "Unofficial Crunchyroll desktop app",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://gitlab.com/crunchyroll/application.git"
+  },
+  "build": {
+    "electronDownload": {
+      "mirror": "https://github.com/castlabs/electron-releases/releases/download/v"
+    }
+  },
+  "author": "Corey Bruce",
+  "license": "GPL",
+  "devDependencies": {
+    "electron": "github:castlabs/electron-releases#v27.3.8+wvcus",
+    "electron-builder": "^24.13.3",
+    "electron-packager": "^17.1.2"
+  },
+  "dependencies": {
+    "electron-context-menu": "^3.6.1"
+  }
+}

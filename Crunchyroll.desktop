@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.1
+Type=Application
+Name=Crunchyroll
+Comment=Unofficial Crunchyroll desktop application
+Icon=crunchyroll
+Exec=crunchyroll
+Actions=
+Categories=AudioVideo;Video;
+GenericName=crunchyroll
